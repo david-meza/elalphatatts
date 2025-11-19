@@ -22,8 +22,8 @@ export default async function handler(
 
     // Send email using Resend
     const data = await resend.emails.send({
-      from: 'Paramount Tattoo <onboarding@resend.dev>', // Update this with your verified domain
-      to: ['contact@paramounttattoos.com'], // Update with your email
+      from: 'Paramount Tattoo <contact-form@paramounttattoos.com>',
+      to: ['appointments@paramounttattoos.com'],
       subject: `New Tattoo Appointment Request from ${name}`,
       html: `
         <h2>New Appointment Request</h2>
