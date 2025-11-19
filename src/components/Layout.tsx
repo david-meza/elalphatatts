@@ -1,5 +1,5 @@
 import React, { useState, useEffect, ReactNode } from 'react';
-import { Menu, X, Instagram, Mail, ExternalLink } from 'lucide-react';
+import { Menu, X, Instagram, Mail } from 'lucide-react';
 
 interface LayoutProps {
     children: ReactNode;
@@ -58,7 +58,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                             onClick={() => scrollToSection('hero')}
                         >
                             <span className="text-2xl font-bold tracking-tighter text-white">
-                                ELALPHATATTS
+                                PARAMOUNT TATTOO
                             </span>
                         </div>
                         
@@ -118,7 +118,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
                     <div className="mb-4 md:mb-0">
                         <span className="text-xl font-bold tracking-tighter text-white cursor-pointer" onClick={() => scrollToSection('hero')}>
-                            ELALPHATATTS
+                            PARAMOUNT TATTOO
                         </span>
                     </div>
                     
@@ -133,7 +133,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                             <Instagram size={20} />
                         </a>
                         <a 
-                            href="mailto:contact@elalphatatts.com" 
+                            href="mailto:contact@paramounttattoos.com" 
                             className="text-zinc-500 hover:text-amber-500 transition-colors"
                             aria-label="Email"
                         >
@@ -142,7 +142,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     </div>
 
                     <p className="text-zinc-600 text-sm">
-                        © {new Date().getFullYear()} ElalphaTattts. All rights reserved.
+                        © {new Date().getFullYear()} Paramount Tattoo. All rights reserved.
                     </p>
                 </div>
             </footer>

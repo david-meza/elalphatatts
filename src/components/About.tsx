@@ -10,7 +10,7 @@ const About: React.FC = () => {
                         <div className="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-amber-500"></div>
                         <img
                             src="/images/artist_portrait_placeholder_1763572407206.png"
-                            alt="ElalphaTattts"
+                            alt="Paramount Tattoo"
                             className="relative z-10 w-full h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-500"
                             loading="lazy"
                         />
@@ -21,7 +21,7 @@ const About: React.FC = () => {
                         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">THE ARTIST</h2>
                         <h3 className="text-xl text-amber-500 mb-6 font-medium">Fine Line & Tiny Tattoos Specialist</h3>
                         <p className="text-zinc-400 mb-6 leading-relaxed">
-                            Welcome. I am the artist behind ElalphaTattts, specializing in "Original Fine Line Work" 
+                            Welcome. I am the artist behind Paramount Tattoo, specializing in "Original Fine Line Work" 
                             and "Tiny Tats". My passion lies in creating delicate, precise, and intricate designs that 
                             flow naturally with the body.
                         </p>

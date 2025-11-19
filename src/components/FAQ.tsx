@@ -40,7 +40,7 @@ const FAQ: React.FC = () => {
     const faqs: FAQData[] = [
         {
             question: "How do I book an appointment?",
-            answer: "Bookings are currently handled through my booking link. If bookings are closed, please check my Instagram @elalphatatts for updates on when my books will reopen."
+            answer: "Bookings are currently handled through my booking link. If bookings are closed, please check my Instagram @alpha.paramounttattoos for updates on when my books will reopen."
         },
         {
             question: "What is your deposit policy?",

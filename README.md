@@ -1,4 +1,4 @@
-# ElalphaTattts - Tattoo Artist Portfolio
+# Paramount Tattoo - Tattoo Artist Portfolio
 
 A modern, mobile-responsive portfolio website for a fine line and tiny tattoo artist. Built with React, TypeScript, Vite, and Tailwind CSS.
 
@@ -32,7 +32,7 @@ A modern, mobile-responsive portfolio website for a fine line and tiny tattoo ar
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd elalphatatts
+cd paramount-tattoo
 ```
 
 2. Install dependencies:
@@ -96,7 +96,7 @@ The `vercel.json` file is already configured for optimal Vercel deployment.
 src/
 ├── components/
 │   ├── About.tsx       # Artist bio section
-│   ├── Booking.tsx     # Calendly integration
+│   ├── Contact.tsx     # Contact form and Calendly integration
 │   ├── FAQ.tsx         # Frequently asked questions
 │   ├── Gallery.tsx     # Portfolio gallery with filters
 │   ├── Hero.tsx        # Hero section
